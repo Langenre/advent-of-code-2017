@@ -1,0 +1,28 @@
+{
+  "name": "advent_of_code_2017",
+  "version": "1.0.0",
+  "description": "Compile with `-O2` if you want to enable tail-call optimizations.",
+  "main": "index.js",
+  "scripts": {
+    "day6part1": "tsc day6_typescript/day6part1.ts && node --max-old-space-size=16000 day6_typescript/day6part1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Langenre/advent-of-code-2017.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Langenre/advent-of-code-2017/issues"
+  },
+  "homepage": "https://github.com/Langenre/advent-of-code-2017#readme",
+  "dependencies": {
+    "@types/node": "^12.12.14",
+    "@types/ramda": "^0.26.36",
+    "immer": "^5.0.0",
+    "ramda": "^0.26.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  }
+}

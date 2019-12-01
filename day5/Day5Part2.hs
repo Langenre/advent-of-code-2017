@@ -4,7 +4,7 @@ solve :: Int -> Int -> S.Seq Int -> Int
 solve index count xs =
   if index >= S.length xs
   then count
-  else solve
+  else solve                                                                               
     ((+) index $ S.index xs index)
     ((+) count 1)
     (S.update
