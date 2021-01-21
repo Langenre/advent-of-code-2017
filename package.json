@@ -20,7 +20,7 @@
   "dependencies": {
     "@types/node": "^12.12.14",
     "@types/ramda": "^0.26.36",
-    "immer": "^5.0.0",
+    "immer": "^8.0.1",
     "ramda": "^0.26.1",
     "ts-node": "^8.5.4",
     "typescript": "^3.7.2"
